@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionViewFooterHeight", "CollectionViewFooterHeight\CollectionViewFooterHeight.csproj", "{B870C01A-58EC-48AA-8D72-BB7764818630}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IosImageAspectFill", "IosImageAspectFill\IosImageAspectFill.csproj", "{1652C080-58E2-4672-84C3-FA288845840A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{B870C01A-58EC-48AA-8D72-BB7764818630}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B870C01A-58EC-48AA-8D72-BB7764818630}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B870C01A-58EC-48AA-8D72-BB7764818630}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1652C080-58E2-4672-84C3-FA288845840A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1652C080-58E2-4672-84C3-FA288845840A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1652C080-58E2-4672-84C3-FA288845840A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1652C080-58E2-4672-84C3-FA288845840A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

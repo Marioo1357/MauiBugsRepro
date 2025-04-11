@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="IosImageAspectFill.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <VerticalStackLayout BackgroundColor="Aqua">
+        <Border
+            x:Name="Border"
+            BackgroundColor="Red"
+            HeightRequest="200"
+            StrokeThickness="0"
+            WidthRequest="200">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="16" />
+            </Border.StrokeShape>
+
+            <Grid
+                BackgroundColor="Chartreuse"
+                HorizontalOptions="Fill"
+                RowDefinitions="*, *"
+                VerticalOptions="Fill">
+                <Image
+                    Grid.Row="0"
+                    Aspect="AspectFill"
+                    HorizontalOptions="Fill"
+                    Source="cinema.jpg"
+                    VerticalOptions="Fill" />
+            </Grid>
+        </Border>
+    </VerticalStackLayout>
+
+</ContentPage>
